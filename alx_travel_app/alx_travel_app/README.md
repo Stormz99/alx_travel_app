@@ -92,7 +92,6 @@ DB_PORT=yourportnumber
 ```
 ![mySQL_dB](./images/mySQL_dB.png)
 
-
 > Ensure the database `alxtravel` exists in MySQL.
 
 4. **Run Migrations**
@@ -107,7 +106,7 @@ python manage.py migrate
 ```bash
 python manage.py runserver
 ```
-[runserver](./images/running_the_server.png)
+![runserver](./images/running_the_server.png)
 
 Visit: `http://127.0.0.1:8000/swagger/` to view the API documentation.
 
