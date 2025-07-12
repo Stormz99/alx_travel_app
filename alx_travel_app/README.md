@@ -45,16 +45,16 @@ All dependencies are listed in the `requirements.txt` file. Notable packages inc
 ```
 alx_travel_app/
 ├── alx_travel_app/
-│   ├── settings.py
-│   ├── urls.py
 │   └── ...
 ├── listings/
-│   ├── models.py
-│   ├── views.py
-│   └── ...
+├── images/
+│   ├── django_installation.png
+│   ├── migrate_mysql_dB.png
+│   ├── swagger.png
 ├── manage.py
 ├── requirements.txt
 └── .env
+
 ```
 
 ## Installation & Setup
