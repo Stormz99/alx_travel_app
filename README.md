@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # alx_travel_app
 
 A Django-based backend application developed as part of the ALX Software Engineering curriculum for the ProDev Backend Software Engineering Program. The project serves as the foundation for a travel listings platform with structured configurations, API documentation, and MySQL integration.
