@@ -1,0 +1,27 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+
+# Django secret files
+.env
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Migration
