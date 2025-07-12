@@ -2,13 +2,9 @@
 
 A Django-based backend application developed as part of the ALX Software Engineering curriculum for the ProDev Backend Software Engineering Program. The project serves as the foundation for a travel listings platform with structured configurations, API documentation, and MySQL integration.
 
----
-
 ## Project Description
 
 The `alx_travel_app` project is a scalable backend application built using Django and Django REST Framework. It focuses on setting up a maintainable structure, configuring a MySQL database connection using environment variables, and generating automated API documentation with Swagger.
-
----
 
 ## Features
 
@@ -19,8 +15,6 @@ The `alx_travel_app` project is a scalable backend application built using Djang
 - Swagger UI for interactive API documentation (`drf-yasg`)
 - CORS support for API access from external clients
 - Project structure suitable for team collaboration and production readiness
-
----
 
 ## Technologies Used
 
@@ -33,7 +27,18 @@ The `alx_travel_app` project is a scalable backend application built using Djang
 - drf-yasg
 - Celery & RabbitMQ (for background task support)
 
----
+  ## Requirements
+
+All dependencies are listed in the `requirements.txt` file. Notable packages include:
+
+- `Django`
+- `djangorestframework`
+- `django-cors-headers`
+- `django-environ`
+- `drf-yasg`
+- `mysqlclient`
+- `celery`, `kombu`, `amqp`
+
 
 ## Directory Structure
 
@@ -51,8 +56,6 @@ alx_travel_app/
 ├── requirements.txt
 └── .env
 ```
-
----
 
 ## Installation & Setup
 
@@ -108,9 +111,6 @@ python manage.py runserver
 
 Visit: `http://127.0.0.1:8000/swagger/` to view the API documentation.
 
----
-
-
 ## Swagger Documentation
 
 - Swagger is available at: `http://127.0.0.1:8000/swagger/`
@@ -118,27 +118,6 @@ Visit: `http://127.0.0.1:8000/swagger/` to view the API documentation.
 
 ![swagger](./images/swagger.png)
 
-]
-
----
-
-## Requirements
-
-All dependencies are listed in the `requirements.txt` file. Notable packages include:
-
-- `Django`
-- `djangorestframework`
-- `django-cors-headers`
-- `django-environ`
-- `drf-yasg`
-- `mysqlclient`
-- `celery`, `kombu`, `amqp`
-
----
-
 ## License
 
 This project is maintained as part of the ALX Software Engineering curriculum. All rights reserved © 2025 ALX.
-=======
-# alx_travel_app
->>>>>>> 80d132a268893e733e61c53c65b2b8593645a818
