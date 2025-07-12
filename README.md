@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # alx_travel_app
 
@@ -140,3 +141,6 @@ All dependencies are listed in the `requirements.txt` file. Notable packages inc
 ## License
 
 This project is maintained as part of the ALX Software Engineering curriculum. All rights reserved © 2025 ALX.
+=======
+# alx_travel_app
+>>>>>>> 80d132a268893e733e61c53c65b2b8593645a818
